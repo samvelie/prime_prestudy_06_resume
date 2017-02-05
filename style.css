@@ -1,0 +1,204 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+@font-face {
+	font-family: Glober;
+	src: url("Glober SemiBold Free.otf");
+}
+
+html {
+	background: linear-gradient(
+	                     rgba(0, 0, 0, 0.6),
+	                     rgba(0, 0, 0, 0.6)),
+	                     url("white-lines-stripes-grey.svg");
+	background-size: cover;
+}
+
+body {
+	font-family: 'Glober', 'Roboto', sans-serif;
+	color: hsl(95, 96%, 72%);
+}
+
+header {
+/* IE10+ */
+	background-image: -ms-linear-gradient(left, #41C4C0 0%, #863d86 100%);
+/* Mozilla Firefox */
+	background-image: -moz-linear-gradient(left, #41C4C0 0%, #863d86 100%);
+/* Opera */
+	background-image: -o-linear-gradient(left, #41C4C0 0%, #863d86 100%);
+/* Webkit (Safari/Chrome 10) */
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #41C4C0), color-stop(100, #863d86));
+/* Webkit (Chrome 11+) */
+	background-image: -webkit-linear-gradient(left, #41C4C0 0%, #863d86 100%);
+/* W3C Markup */
+	background-image: linear-gradient(to right, #000000 0%, #863d86 100%);
+	display: block;
+	max-width: 85%;
+	border-radius: 1.375em;
+	padding: 1em;
+	margin: 1.875em 12em 1.875em 12em;
+	word-wrap:break-word;
+	box-shadow:
+		inset 2px 1px 2px 1px #222f2f,
+		2px 1px 2px 1px #22222f;
+}
+
+section {
+/* IE10+ */
+	background-image: -ms-radial-gradient(center top, circle farthest-side, #242727 0%, #000000 100%);
+/* Mozilla Firefox */
+	background-image: -moz-radial-gradient(center top, circle farthest-side, #242727 0%, #000000 100%);
+/* Opera */
+	background-image: -o-radial-gradient(center top, circle farthest-side, #242727 0%, #000000 100%);
+/* Webkit (Safari/Chrome 10) */
+	background-image: -webkit-gradient(radial, center top, 0, center center, 258, color-stop(0, #242727), color-stop(100, #000000));
+/* Webkit (Chrome 11+) */
+	background-image: -webkit-radial-gradient(center top, circle farthest-side, #242727 0%, #000000 100%);
+/* W3C Markup */
+	background-image: radial-gradient(circle farthest-side at center top, #242727 0%, #000000 75%);
+	display: block;
+	max-width:85%;
+	padding: 1em;
+	margin: 1.875em 12em 1.875em 12em;
+	border-radius: 1.375em;
+	text-align:left;
+	word-wrap:break-word;
+	box-shadow:
+		inset 2px 1px 2px 1px #222f2f,
+		2px 1px 2px 1px #22222f;;
+}
+
+footer {
+/* IE10+ */
+	background-image: -ms-radial-gradient(center, circle farthest-side, #121313 0%, hsl(95, 96%, 72%) 100%);
+/* Mozilla Firefox */
+	background-image: -moz-radial-gradient(center, circle farthest-side, #121313 0%, hsl(95, 96%, 72%) 100%);
+/* Opera */
+	background-image: -o-radial-gradient(center, circle farthest-side, #121313 0%, hsl(95, 96%, 72%) 100%);
+/* Webkit (Safari/Chrome 10) */
+	background-image: -webkit-gradient(radial, center center, 0, center center, 258, color-stop(0, #121313), color-stop(100, hsl(95, 96%, 72%)));
+/* Webkit (Chrome 11+) */
+	background-image: -webkit-radial-gradient(center, circle farthest-side, #121313 0%, hsl(95, 96%, 72%) 100%);
+/* W3C Markup */
+	background-image: radial-gradient(circle farthest-side at center center, #121313 0%, hsl(95, 96%, 72%) 100%);
+	box-sizing: border-box;
+	border-radius: 1.375em;
+	border: 2px dotted #223f3f;
+	width: 100px;
+	-webkit-transition: width 1s;
+    	transition: width 1s;
+	padding: 0.5em;
+	color: #efefef;
+	text-align: center;
+	margin: 1.5em auto;
+}
+
+h1 {
+	font-size:3.5em;
+	line-height: 140%;
+}
+
+h2 {
+	font-size: 2em;
+	line-height: 150%;
+}
+
+h3 {
+	font-size: 1.5em;
+	text-decoration: bold;
+	line-height: 120%;
+	padding-top: 0.5em;
+}
+
+h4 {
+	font-size: 1.4em;
+	color: #efefef;
+	padding-bottom:0.5em;
+}
+
+ul {
+	font-size: 1em;
+	padding-left: 1em;
+	line-height: 1.25em;
+	padding-bottom: 1em;
+}
+
+p {
+	font-size: 1.35em;
+}
+
+header h1 {
+	color: white;
+}
+
+header h1, h4, p {
+	text-align: center;
+}
+
+header a {
+	text-decoration: none;
+	color: #75e8ff;
+}
+
+header a:hover {
+	color: hotpink;
+}
+
+section h2 {
+	border-bottom: 1px dotted #223f3f;
+}
+
+section p {
+	font-size: 1.125em;
+	font-style: italic;
+	text-align: left;
+  }
+
+#education {
+/* IE10+ */
+	background-image: -ms-radial-gradient(center, circle farthest-side, #242727 0%, #000000 100%);
+/* Mozilla Firefox */
+	background-image: -moz-radial-gradient(center, circle farthest-side, #242727 0%, #000000 100%);
+/* Opera */
+	background-image: -o-radial-gradient(center, circle farthest-side, #242727 0%, #000000 100%);
+/* Webkit (Safari/Chrome 10) */
+	background-image: -webkit-gradient(radial, center center, 0, center center, 258, color-stop(0, #242727), color-stop(100, #000000));
+/* Webkit (Chrome 11+) */
+	background-image: -webkit-radial-gradient(center, circle farthest-side, #242727 0%, #000000 100%);
+/* W3C Markup */
+	background-image: radial-gradient(circle farthest-side at center right, #242727 0%, #000000 75%);
+}
+#education p {
+	font-style: normal;
+}
+
+footer p {
+	font-size: 0.625em;
+}
+
+footer:hover {
+	content: url('LIProfPic.jpg');
+	width: 150px;
+}
+
+#resume{
+	display:none;
+}
